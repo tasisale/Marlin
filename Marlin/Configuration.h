@@ -105,10 +105,10 @@
   #define MOTHERBOARD BOARD_CHITU3D_V6
   #define WITH_TMC 1
   #define WITH_TITAN 1
-  #define X_BED_SIZE 400
+  #define X_BED_SIZE 420
   #define Y_BED_SIZE 400
   #define Z_MAX_POS 400
-  #define CUSTOM_MACHINE_NAME "Tronxy X5SA-2E V6 400 Titan TMC"
+  #define CUSTOM_MACHINE_NAME "Hipps - Tronxy X5SA-2E"
   #define COREXY
 
 #elif V6_400_NO_TITAN_TMC
