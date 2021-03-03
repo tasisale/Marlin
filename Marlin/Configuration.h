@@ -250,9 +250,9 @@
   #define CUSTOM_MACHINE_NAME "Tronxy XY-2PRO M"
   // My config optimisation
   #define S_CURVE_ACCELERATION
-  #define DEFAULT_Kp 18.33
-  #define DEFAULT_Ki 1.15
-  #define DEFAULT_Kd 73.12
+  #define DEFAULT_Kp 16.68
+  #define DEFAULT_Ki 1.16
+  #define DEFAULT_Kd 60.19
 
 #elif XY2_V5_255_NO_TITAN_TMC
   #define MOTHERBOARD BOARD_CHITU3D_V5
