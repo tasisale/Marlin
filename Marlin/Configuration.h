@@ -110,6 +110,11 @@
   #define Z_MAX_POS 400
   #define CUSTOM_MACHINE_NAME "Tronxy X5SA-2E V6 400 TMC"
   #define COREXY
+    // My config optimisation
+  #define S_CURVE_ACCELERATION
+  #define DEFAULT_Kp 16.68
+  #define DEFAULT_Ki 1.16
+  #define DEFAULT_Kd 60.19
 
 #elif V6_400_NO_TITAN_TMC
   #define MOTHERBOARD BOARD_CHITU3D_V6
@@ -248,11 +253,6 @@
   #define Y_BED_SIZE 255
   #define Z_MAX_POS 330
   #define CUSTOM_MACHINE_NAME "Tronxy XY-2PRO M"
-  // My config optimisation
-  #define S_CURVE_ACCELERATION
-  #define DEFAULT_Kp 16.68
-  #define DEFAULT_Ki 1.16
-  #define DEFAULT_Kd 60.19
 
 #elif XY2_V5_255_NO_TITAN_TMC
   #define MOTHERBOARD BOARD_CHITU3D_V5
