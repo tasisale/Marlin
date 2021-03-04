@@ -1564,10 +1564,11 @@
 // For direct drive extruder v9 set to true, for geared extruder set to false.
 #if defined(WITH_TITAN) || defined(WITH_BMG) || MOTHERBOARD == BOARD_BTT_SKR_V1_4_TURBO
   #define INVERT_E0_DIR true
+  #define INVERT_E1_DIR true
 #else
   #define INVERT_E0_DIR false
+  #define INVERT_E1_DIR false
 #endif
-#define INVERT_E1_DIR true
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
 #define INVERT_E4_DIR false
