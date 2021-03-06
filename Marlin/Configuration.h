@@ -108,7 +108,7 @@
   #define X_BED_SIZE 410
   #define Y_BED_SIZE 400
   #define Z_MAX_POS 400
-  #define CUSTOM_MACHINE_NAME "Tronxy X5SA-2E V6 400 TMC"
+  #define CUSTOM_MACHINE_NAME "Tronxy X5SA-2e Simon H."
   #define COREXY
     // My config optimisation
   #define S_CURVE_ACCELERATION
@@ -965,7 +965,7 @@
 //#define USE_ZMAX_PLUG
 
 // Enable pullup for all endstops to prevent a floating state
-#define ENDSTOPPULLUPS //MM ist bei mir kommentiert
+//#define ENDSTOPPULLUPS //MM ist bei mir kommentiert
 #if DISABLED(ENDSTOPPULLUPS)
   // Disable ENDSTOPPULLUPS to set pullups individually
   //#define ENDSTOPPULLUP_XMAX
@@ -1262,7 +1262,7 @@
  *      - normally-closed switches to GND and D32.
  *      - normally-open switches to 5V and D32.
  */
-//#define Z_MIN_PROBE_PIN 32 //MM warum gibst du keinen pin an? Pin 32 is the RAMPS default
+#define Z_MIN_PROBE_PIN 32 //MM warum gibst du keinen pin an? Pin 32 is the RAMPS default
 
 /**
  * Probe Type
