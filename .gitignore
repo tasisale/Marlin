@@ -191,3 +191,4 @@ __pycache__
 eeprom.dat
 imgui.ini
 Marlin/Configuration.SH
+*.h_face2
