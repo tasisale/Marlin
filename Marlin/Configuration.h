@@ -105,7 +105,7 @@
   #define MOTHERBOARD BOARD_CHITU3D_V6
   #define WITH_TMC 1
   #define WITH_TITAN 1
-  #define X_BED_SIZE 410
+  #define X_BED_SIZE 400
   #define Y_BED_SIZE 400
   #define Z_MAX_POS 400
   #define CUSTOM_MACHINE_NAME "Tronxy X5SA Simon H."
